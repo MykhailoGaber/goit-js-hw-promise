@@ -1,0 +1,23 @@
+{
+  "name": "goit-js-hw-promise",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MykhailoGaber/goit-js-hw-promise.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/MykhailoGaber/goit-js-hw-promise/issues"
+  },
+  "homepage": "https://github.com/MykhailoGaber/goit-js-hw-promise#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.4"
+  }
+}
