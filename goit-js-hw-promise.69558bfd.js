@@ -1,2 +1,0 @@
-let t=t=>new Promise((a,n)=>{let o=Math.floor(301*Math.random()+200);setTimeout(()=>{Math.random()>.3?a(t.id,o):n(t.id)},o)}),a=(t,a)=>{console.log(`Transaction ${t} processed in ${a} ms`)},n=t=>{console.warn(`Error processing transaction ${t}. Please try again later.`)};t({id:70,amount:150}).then(a).catch(n),t({id:71,amount:230}).then(a).catch(n),t({id:72,amount:75}).then(a).catch(n),t({id:73,amount:100}).then(a).catch(n);
-//# sourceMappingURL=goit-js-hw-promise.69558bfd.js.map
